@@ -1,0 +1,43 @@
+.PlayerName h1{
+    font-size: 3rem;
+    margin-bottom: 10px;    
+    cursor: pointer;
+    transition: text-shadow 0.3s ease;
+}
+
+.PlayerName h1:hover{
+    text-shadow: 8px 8px 8px black;
+}
+
+.PlayerInput{
+    display: flex;
+    flex-direction: column;
+}
+.PlayerInput input{
+   padding: 8px;
+   border: none;
+   outline: none;
+   border-radius:10px;
+   margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.PlayerInput button{
+
+    border:none;
+    background-color: var(--rose-ebony);
+    color: var(--moonstone);
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+}
+.PlayerInput button:hover{
+    background-color: var(--moonstone);
+    color: var(--rose-ebony);
+}
+
+
+
